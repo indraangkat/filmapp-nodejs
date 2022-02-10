@@ -11,7 +11,7 @@ const video = require("./video")
 router.get("/search",search)
 router.get("", getAll);
 router.put("/video/:id_film", video)
-router.post("/thumbnail", thumbnail)
+router.post("/thumbnail/:id_film", thumbnail)
 
 
 

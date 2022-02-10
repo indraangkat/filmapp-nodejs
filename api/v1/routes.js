@@ -10,11 +10,6 @@ router.use("/kategori", kategori)
 const genre = require("./genre/routes")
 router.use("/genre", genre)
 
-const thumbnail = require("./uploadthumbnail/routes")
-router.use("/thumbnail", thumbnail)
-
-const video = require("./uploadvideo/routes")
-router.use("/video", video)
 
 
 
