@@ -1,0 +1,29 @@
+{
+  "name": "film-api",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "heroku"
+  ],
+  "author": "indra",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "eslint": "^8.8.0",
+    "express": "^4.17.2",
+    "git": "^0.1.5",
+    "heroku": "^7.59.2",
+    "multer": "^1.4.4",
+    "mysql": "^2.18.1",
+    "mysqljs": "^0.0.2-security",
+    "nodemon": "^2.0.15"
+  },
+  "description": ""
+}
