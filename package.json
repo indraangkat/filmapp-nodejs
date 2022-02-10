@@ -7,9 +7,9 @@
     "dev": "nodemon server.js",
     "start": "node server.js"
   },
-  "keywords": [
-    "heroku"
-  ],
+  "engines": {
+    "node": "12.x"
+  },
   "author": "indra",
   "license": "ISC",
   "dependencies": {

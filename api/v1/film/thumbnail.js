@@ -5,7 +5,7 @@ const req = require("express/lib/request");
 
 const thumbnail= ( req, res)=>{
 // MENGGUNAKAN PARAM KARENA PAKAI URL /:NAMA_FILM
-    const id_film = req.body.id_film
+    const id_film = req.params.id_film
     const thumbnail = req.body.thumbnail
 
     console.log(req.file,323232)
